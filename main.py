@@ -4,7 +4,7 @@ import ml
 from dto import IssueDto, ResponseDto
 
 app = FastAPI()
-BASE_URL = "https://https://city24.civiltechgroup.ru/"
+BASE_URL = "https://city24.civiltechgroup.ru/"
 
 
 def generate_file_url(issue: IssueDto):
